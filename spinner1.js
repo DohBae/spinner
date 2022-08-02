@@ -16,17 +16,21 @@ setTimeout(() => {
 }, 700);
 // mine
 setTimeout (() => {
+  process.stdout.write(`\r| `);
+}, 900);
+
+setTimeout(() => {
   process.stdout.write(`\r/ `);
-}, 700);
+}, 1100);
 
 setTimeout(() => {
   process.stdout.write(`\r- `);
-}, 500);
+}, 1300);
 
 setTimeout(() => {
-  process.stdout.write(`\r\\ `);
-}, 300);
+  process.stdout.write(`\r\\`);
+}, 1500);
 
 setTimeout(() => {
   process.stdout.write(`\r|`);
-}, 100);
+}, 1700);
